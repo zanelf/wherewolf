@@ -10,17 +10,14 @@
         h2{text-align: center; background-color: #302f2f; padding: 5px;}
         p{color:rgb(214, 214, 214); font-size: 15pt;text-align: center;padding: 10px;} 
         a{color: rgb(30, 255, 0); }
-
-        
-li {
-  padding-left: 16px;
-}
-
-li::before {
-  content: "•"; /* Insert content that looks like bullets */
-  padding-right: 8px;
-  color: blue; /* Or a color you prefer */
-}
+        ul{
+            list-style: none;
+        }
+        li::before {
+        content: ">>"; /* Insert content that looks like bullets */
+        padding-right: 8px;
+        color: red; /* Or a color you prefer */
+        }
         
         #fullList{
             background-color: rgb(90 87 87);
@@ -85,13 +82,7 @@ li::before {
         <p>
             la historia se ubica en el mundo de tinieblas, eso significa. 
         </p>
-            <p id="sub-list">
-                >es un mundo similar al nuestro.<br>
-                >una diferencia capital es que la sociedad jamas salio del todo del estilo gotico <br>
-                >en esta version del mundo las criaturas de la noche son reales. <br>
-                >el mundo del hombre tiene una tendencia mas marcada ah la corrupcion y mas pesimista en general.
-            </p>
-            <ul style="color:azure ; list-style-type: katakana">
+            <ul style="color:azure;">
                 <li>es un mundo similar al nuestro.</li>
                 <li>una diferencia capital es que la sociedad jamas salio del todo del estilo gotico.</li>
                 <li>en esta version del mundo las criaturas de la noche son reales.</li>
