@@ -74,8 +74,9 @@
         }
         img.capituloL{
             position:absolute ;
-            top: 13%;
-            right: 5%;
+            top: 41px;
+            right: 56px;
+            
         }
 
 
@@ -106,13 +107,31 @@
             text-align: center;
             overflow-y: scroll;
             overflow-x: hidden;
-
+            
             
         }
+        details.her{
+            background-color: pink;
+            width: 90%;   
+           margin: 0% 6% 0% 6%;
+        }
+        details.her >summary{
+            color: rgb(54, 54, 54);
+            background-color: rgb(29, 28, 28);
+        }
+        details.her >p{
+            color: rgb(29, 28, 28);
+            font-size: 15pt;
+            text-align: left;
+            padding: 0%;
+            padding-left: 0.5%;
+            margin: 0%;
+        }
+
         img.capituloR{
             position:absolute ;
-            top: 13%;
-            left: 5%;
+            top: 41px;
+            left: 56px;
         }        
     </style>
 
@@ -183,21 +202,28 @@
         </p>
     </div>
 
-    <h2>parte 1</h2>
-    <div class="capituloL" >
+    <h2 id="parte 1">parte 1</h2>
+
+    <div class="capituloL" id="butterflies" >
         <h3 class="capituloL">butterflies (scratch21)</h3>
         <p class="capituloL">
-            texto va aqui 
+            el texto va aqui
+            <a  href="https://www.youtube.com/watch?v=2mKoLKjsgkc"
+            target="blank";>
+                <img class="capituloL"
+                src="imgs\butterflies(scratch21).jpg"
+                alt="imgs\butterflies(scratch21)2.jpg" 
+                width="289px" height="239px">
+            </a> 
         </p>
             
-        <a  href="https://www.youtube.com/watch?v=2mKoLKjsgkc"
-        target="blank">
-            <img class="capituloL"
-            src="imgs\butterflies(scratch21).jpg"
-            alt="imgs\butterflies(scratch21)2.jpg" 
-            width="28%" height="80%">
-        </a> 
 
+    <details close class="her" >
+        <summary ></summary>
+        <p>
+            el texto va aqui
+        </p>
+    </details> 
     </div>
 
     <div class="capituloR" >
@@ -211,9 +237,14 @@
             <img class="capituloR"
             src="imgs\freakLikeMe.jpg"
             alt="imgs\freakLikeMe.jpg" 
-            width="28%" height="80%">
+            width="289px" height="239px">
         </a> 
-
+           <details close class="her" >
+        <summary ></summary>
+        <p>
+            el texto va aqui
+        </p>
+        </details> 
     </div>
     
     <div class="capituloL" >
@@ -227,10 +258,17 @@
             <img class="capituloL"
             src="imgs\uh oh.jpg"
             alt="imgs\butterflies(scratch21)2.jpg" 
-            width="28%" height="80%">
+            width="289px" height="239px">
         </a> 
-
+        <details close class="her" >
+            <summary ></summary>
+            <p>
+                el texto va aqui
+            </p>
+        </details> 
     </div>
+
+
 </body>
 
 </html>
