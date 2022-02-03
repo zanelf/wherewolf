@@ -44,15 +44,6 @@
             padding-top: 10px;
         }
 
-        h3.capituloL{
-           text-align: left; 
-           font-size: 25px;
-           color:rgb(197, 153, 153);
-           padding: 0%;
-           padding-left: 5%;
-           margin: 0%;
-        }
-
         div.capituloL{            
             width: 95%;
             height: 7%;
@@ -61,7 +52,17 @@
             padding: 5px;
 
         }
-        p.capituloL{
+
+        div.capituloL>h3{
+           text-align: left; 
+           font-size: 25px;
+           color:rgb(197, 153, 153);
+           padding: 0%;
+           padding-left: 5%;
+           margin: 0%;
+        }
+
+        div.capituloL>p{
             
             width: 57%;
             height: 200px;
@@ -72,21 +73,11 @@
             overflow-x: hidden;
             
         }
-        img.capituloL{
+        div.capituloL>a>img{
             position:absolute ;
             top: 41px;
             right: 56px;
             
-        }
-
-
-        h3.capituloR{
-           text-align: right; 
-           font-size: 25px;
-           color:rgb(197, 153, 153);
-           padding: 0%;
-           padding-right: 5%;
-           margin: 0%;
         }
 
         div.capituloR{            
@@ -97,7 +88,15 @@
             padding: 5px;
 
         }
-        p.capituloR{
+        div.capituloR>h3{
+           text-align: right; 
+           font-size: 25px;
+           color:rgb(197, 153, 153);
+           padding: 0%;
+           padding-right: 5%;
+           margin: 0%;
+        }
+        div.capituloR>p{
             
             width: 57%;
             height: 200px;
@@ -110,6 +109,12 @@
             
             
         }
+        div.capituloR>a>img{
+            position:absolute ;
+            top: 41px;
+            left: 56px;
+        }        
+
         details.her{
             background-color: pink;
             width: 90%;   
@@ -128,11 +133,7 @@
             margin: 0%;
         }
 
-        img.capituloR{
-            position:absolute ;
-            top: 41px;
-            left: 56px;
-        }        
+
     </style>
 
 </head>
@@ -202,21 +203,20 @@
         </p>
     </div>
 
-    <h2 id="parte 1">parte 1</h2>
+    <h2 id="parte 1" style="text-shadow: 3px">parte 1</h2>
 
     <div class="capituloL" id="butterflies" >
-        <h3 class="capituloL">butterflies (scratch21)</h3>
-        <p class="capituloL">
-            el texto va aqui
-            <a  href="https://www.youtube.com/watch?v=2mKoLKjsgkc"
-            target="blank";>
-                <img class="capituloL"
-                src="imgs\butterflies(scratch21).jpg"
-                alt="imgs\butterflies(scratch21)2.jpg" 
-                width="289px" height="239px">
-            </a> 
+        <h3>butterflies (scratch21)</h3>
+        <p>
+            el texto va aqui 
         </p>
-            
+        <a  href="https://www.youtube.com/watch?v=2mKoLKjsgkc"
+        target="blank";>
+            <img
+            src="imgs\butterflies(scratch21).jpg"
+            alt="imgs\butterflies(scratch21)2.jpg" 
+            width="289px" height="239px">
+        </a>
 
     <details close class="her" >
         <summary ></summary>
@@ -227,35 +227,36 @@
     </div>
 
     <div class="capituloR" >
-        <h3 class="capituloR">freak like me(Hollywood Ending)</h3>
-        <p class="capituloR" >
+        <h3>freak like me(Hollywood Ending)</h3>
+        <p>
             texto va aqui 
         </p>
 
         <a  href="https://www.youtube.com/watch?v=d_ZL8pn2aUI"
         target="blank">
-            <img class="capituloR"
+            <img
             src="imgs\freakLikeMe.jpg"
             alt="imgs\freakLikeMe.jpg" 
             width="289px" height="239px">
         </a> 
-           <details close class="her" >
-        <summary ></summary>
-        <p>
-            el texto va aqui
-        </p>
+        <details close class="her" >
+            <summary ></summary>
+            <p>
+                el texto va aqui
+            </p>
         </details> 
     </div>
+
     
     <div class="capituloL" >
-        <h3 class="capituloL">uh oh-junior doctor</h3>
-        <p class="capituloL">
+        <h3 >uh oh-junior doctor</h3>
+        <p >
             texto va aqui 
         </p>
             
         <a  href="https://www.youtube.com/watch?v=2w5YNI0rW74"
         target="blank">
-            <img class="capituloL"
+            <img
             src="imgs\uh oh.jpg"
             alt="imgs\butterflies(scratch21)2.jpg" 
             width="289px" height="239px">
